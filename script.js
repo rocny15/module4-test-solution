@@ -3,7 +3,7 @@
   
   var write = function () {
     for(var i = 0; i < names.length; i++ ){
-      if(names[i][0].charAt().toUpperCase() === "J"){
+      if(names[i][0].toUpperCase() === "J"){
         window.byeSpeaker(names[i]);
       }
       else{
